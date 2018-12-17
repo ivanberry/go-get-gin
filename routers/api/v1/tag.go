@@ -16,7 +16,8 @@ import (
 // @Summary 新增文章标签
 // @Produce json
 // @Param name query string true "Name"
-
+// @Success 200 {string} json
+// @Router /api/v1/tags [get]
 func GetTags(c *gin.Context)  {
 	name := c.Query("name")
 
