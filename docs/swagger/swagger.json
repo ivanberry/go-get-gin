@@ -15,19 +15,24 @@
                 "produces": [
                     "application/json"
                 ],
-                "summary": "新增文章标签",
+                "summary": "获取多个文章标签",
                 "parameters": [
                     {
                         "type": "string",
                         "description": "Name",
                         "name": "name",
-                        "in": "query",
-                        "required": true
+                        "in": "query"
+                    },
+                    {
+                        "type": "integer",
+                        "description": "State",
+                        "name": "state",
+                        "in": "query"
                     }
                 ],
                 "responses": {
                     "200": {
-                        "description": "OK",
+                        "description": "{\"code\":200,\"data\":{\"lists\":[{\"id\":3,\"created_on\":1516849721,\"modified_on\":0,\"name\":\"3333\",\"created_by\":\"4555\",\"modified_by\":\"\",\"state\":0}],\"total\":29},\"msg\":\"ok\"}",
                         "schema": {
                             "type": "string"
                         }

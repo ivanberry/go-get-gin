@@ -4,8 +4,12 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/ivanberry/amy-blog/pkg"
 	"github.com/ivanberry/amy-blog/routers/api/v1"
+
+
+
 	"github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
+	_ "github.com/ivanberry/amy-blog/docs"
 )
 
 func InitRouter() *gin.Engine {
