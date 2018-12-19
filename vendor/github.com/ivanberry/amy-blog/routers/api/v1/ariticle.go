@@ -6,6 +6,10 @@ func GetArticles(c *gin.Context) {
 	//PASS
 }
 
+func GetArticle(c *gin.Context) {
+	//PASS
+}
+
 func AddArticle(c *gin.Context) {
 	//PASS
 }

@@ -33,7 +33,7 @@ func InitRouter() *gin.Engine {
 
 
 		apiv1.GET("/articles", v1.GetArticles)
-		apiv1.GET("/articles/:id", v1.GetArticles)
+		apiv1.GET("/articles/:id", v1.GetArticle)
 
 	}
 
