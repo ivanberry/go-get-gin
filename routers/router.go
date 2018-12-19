@@ -31,6 +31,10 @@ func InitRouter() *gin.Engine {
 		//删除指定标签
 		apiv1.DELETE("/tags/:id", v1.DeleteTag)
 
+
+		apiv1.GET("/articles", v1.GetArticles)
+		apiv1.GET("/articles/:id", v1.GetArticles)
+
 	}
 
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
