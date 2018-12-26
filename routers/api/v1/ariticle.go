@@ -4,10 +4,12 @@ import (
 	"github.com/Unknwon/com"
 	"github.com/astaxie/beego/validation"
 	"github.com/gin-gonic/gin"
+	"github.com/ivanberry/amy-blog/models"
 	"github.com/ivanberry/amy-blog/pkg"
 	"github.com/ivanberry/amy-blog/pkg/e"
 	"github.com/ivanberry/amy-blog/pkg/util"
-	"github.com/ivanberry/amy-blog/models"
+	"log"
+	"net/http"
 )
 
 func GetArticles(c *gin.Context) {
@@ -34,12 +36,25 @@ func GetArticles(c *gin.Context) {
 	code := e.INVALID_PARAMS
 	if !valid.HasErrors() {
 		code = e.SUCCESS
-		//
-		//data["lists"] = (util.GetPage(c), setting.PageSize, maps)
+
+		data["lists"] = models.GetArticles(util.GetPage(c), setting.PageSize, maps)
+		data["total"] = models.GetArticleTotal(maps)
+	} else {
+		for _, err := range valid.Errors {
+			log.Fatal(err.Key, err.Message)
+		}
 	}
 
+	c.JSON(http.StatusOK, gin.H{
+		"code": code,
+		"msg": e.GetMsg(code),
+		"data": data,
+	})
 
+}
 
+func GetArticle(c *gin.Context)  {
+	//PASS
 }
 
 func AddArticle(c *gin.Context) {

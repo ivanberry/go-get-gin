@@ -113,50 +113,50 @@
 		{
 			"checksumSHA1": "3a2Yep+bQpsEDYLRP6Xux30en6E=",
 			"path": "github.com/ivanberry/amy-blog",
-			"revision": "1753a8a6de967473f552cd5c99af30054026971e",
-			"revisionTime": "2018-12-18T12:50:19Z"
+			"revision": "2b1fc149a936a8d7a9f9aa1ef17bb8c8fb3535c1",
+			"revisionTime": "2018-12-19T22:13:00Z"
 		},
 		{
 			"checksumSHA1": "bqZ+XXYKAaI2rN4uaSSsCjxKpWA=",
 			"path": "github.com/ivanberry/amy-blog/docs",
-			"revision": "1753a8a6de967473f552cd5c99af30054026971e",
-			"revisionTime": "2018-12-18T12:50:19Z"
+			"revision": "2b1fc149a936a8d7a9f9aa1ef17bb8c8fb3535c1",
+			"revisionTime": "2018-12-19T22:13:00Z"
 		},
 		{
-			"checksumSHA1": "BMUFWIBKQrYC/XZXcPX2jYQm4KQ=",
+			"checksumSHA1": "sRWLFB+gixda/5YMv7VwarWTFQs=",
 			"path": "github.com/ivanberry/amy-blog/models",
-			"revision": "1753a8a6de967473f552cd5c99af30054026971e",
-			"revisionTime": "2018-12-18T12:50:19Z"
+			"revision": "2b1fc149a936a8d7a9f9aa1ef17bb8c8fb3535c1",
+			"revisionTime": "2018-12-19T22:13:00Z"
 		},
 		{
 			"checksumSHA1": "fQC/Lxxl8QvS0PkCbdkRG+U0j+s=",
 			"path": "github.com/ivanberry/amy-blog/pkg",
-			"revision": "1753a8a6de967473f552cd5c99af30054026971e",
-			"revisionTime": "2018-12-18T12:50:19Z"
+			"revision": "2b1fc149a936a8d7a9f9aa1ef17bb8c8fb3535c1",
+			"revisionTime": "2018-12-19T22:13:00Z"
 		},
 		{
 			"checksumSHA1": "1afxGXCbyPDP7XEVZEKrfED8mv8=",
 			"path": "github.com/ivanberry/amy-blog/pkg/e",
-			"revision": "1753a8a6de967473f552cd5c99af30054026971e",
-			"revisionTime": "2018-12-18T12:50:19Z"
+			"revision": "2b1fc149a936a8d7a9f9aa1ef17bb8c8fb3535c1",
+			"revisionTime": "2018-12-19T22:13:00Z"
 		},
 		{
 			"checksumSHA1": "yO0SRk8xX1MD7B4zYS79OG1HuZ4=",
 			"path": "github.com/ivanberry/amy-blog/pkg/util",
-			"revision": "1753a8a6de967473f552cd5c99af30054026971e",
-			"revisionTime": "2018-12-18T12:50:19Z"
+			"revision": "2b1fc149a936a8d7a9f9aa1ef17bb8c8fb3535c1",
+			"revisionTime": "2018-12-19T22:13:00Z"
 		},
 		{
-			"checksumSHA1": "WXBr7B2Fxvo1lgPRj4upzay9+dA=",
+			"checksumSHA1": "0RqxJTqxfIotT1wj3UqjPZN2+Lk=",
 			"path": "github.com/ivanberry/amy-blog/routers",
-			"revision": "1753a8a6de967473f552cd5c99af30054026971e",
-			"revisionTime": "2018-12-18T12:50:19Z"
+			"revision": "2b1fc149a936a8d7a9f9aa1ef17bb8c8fb3535c1",
+			"revisionTime": "2018-12-19T22:13:00Z"
 		},
 		{
-			"checksumSHA1": "Y3m6/Hkbjr86fk4W7RpXijw7+70=",
+			"checksumSHA1": "AUfoZSi6f2VGt6NLpDAG4A37hXE=",
 			"path": "github.com/ivanberry/amy-blog/routers/api/v1",
-			"revision": "1753a8a6de967473f552cd5c99af30054026971e",
-			"revisionTime": "2018-12-18T12:50:19Z"
+			"revision": "2b1fc149a936a8d7a9f9aa1ef17bb8c8fb3535c1",
+			"revisionTime": "2018-12-19T22:13:00Z"
 		},
 		{
 			"checksumSHA1": "GWZt8djqK/GoHgon8POT508+BXM=",
